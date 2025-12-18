@@ -11,5 +11,5 @@ terraform {
 provider "random" {}
 
 resource "random_pet" "example" {
-  length = 2
+  length = 3
 }
